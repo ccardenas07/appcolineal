@@ -1,0 +1,125 @@
+img 
+{
+	border:none;
+}
+#gallery 
+{
+	 float: left;
+	 overflow:hidden;
+	 min-height: 3em;
+     /*width: auto;*/
+	 width:200px;
+	 z-index:8;
+	
+	    }
+.gallery.custom-state-active
+ { 
+ 	background: #eee; 
+ }
+.gallery li 
+{ 
+   float: left;
+ /*width: 40px; 
+ /*padding: 0.4em;*/
+   margin: 0 0.4em 0.4em 0;
+   text-align: center; 
+   border:none;
+   /*background-color:#414F04;*/
+   background-color:transparent;
+   border:none;
+   z-index:11;
+   }
+.gallery li h5 
+{
+	margin: 0 0 0.4em; cursor: move;
+	background-color:transparent;
+	 }
+.gallery li a
+ {
+	  /*float: right;*/
+	 float: left;
+	 background-color:transparent;
+	   }
+.gallery li a.ui-icon-zoomin 
+{
+	float: left;
+	background-color:transparent;
+	  }
+.gallery li img 
+{ 
+	width: 100px;
+ 	cursor: move; 
+	background-color:transparent;
+ }
+#trash 
+{ 
+	float: right;
+	/*width:645px;*/
+	width:440px;
+	height:621px;
+	background-image:url(images/arbol.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	border:none;
+
+  }
+#trash h4 
+{ 
+	line-height: 16px;
+ 	margin: 0 0 0.4em;
+
+  }
+#trash h4 .ui-icon 
+{ 
+	float: left;
+ }
+#trash .gallery h5
+ { 
+	 display: none;
+  }
+.arbolito
+   {
+	float: left;
+	position: absolute;
+	overflow: visible;
+	width: 695px !important;
+	margin-top: -600px !important;
+	z-index: 1;
+	/*left: 29px;*/
+	left: -200px;
+	top: 695px;
+	height: 712px;
+  }
+ .appli
+ {
+	  background-image:url(images/fondo_arbol.jpg);
+	  width:790px;
+	  height:800px;
+	  position:absolute;
+	  float:left;
+	  top:0;
+ }
+ .muebles
+ {
+	float: left;
+	position: absolute;
+	margin-top: 100px;
+	width: 271px;
+	left: 506px;
+	/*top: 238px;	*/
+	top: 93px;
+	z-index: 7;
+	height: 87px;
+	
+ }
+ .me_gusta
+ {
+  margin-left: 100px;
+  margin-top: 717px;
+
+ }
+ .twitter
+ {
+	  margin-left: 206px;
+      margin-top: -22px;
+ }
